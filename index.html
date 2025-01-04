@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Заголовок страницы -->
+    <title>БЫСТРЫЙ СТАРТ НА МОСКОВСКОЙ БИРЖЕ</title>
+    <!-- Картинка страницы -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <!-- Сслыки на каскадные таблицы стилей -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Шапка страницы -->
+    <header class="sticky-header">
+        <div class="container">
+            <div class="row">
+                <!-- Логотип -->
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- Навигационное меню -->
+                <div class="col-md-8">
+                    <div class="main-menu float-right">
+                        <nav>
+                            <ul>
+                                <!-- Компания -->
+                                <li class="dropdown">
+                                    <a href="#" data-scroll-nav="0">Компания</a>
+                                    <ul>
+                                        <li><a href="#trader">Стать трейдером</a></li>
+                                        <li><a href="#company">О компании</a></li>
+                                    </ul>
+                                </li>
+                                <!-- Обучение -->
+                                <li class="dropdown">
+                                    <a href="#" data-scroll-nav="1">Обучение</a>
+                                    <ul>
+                                        <li><a href="#course">Курсы</a></li>
+                                        <li><a href="#pattern">Формации</a></li>
+                                        <li><a href="#books">Книги</a></li>
+                                        <li><a href="#teachers">Преподаватели</a></li>
+                                    </ul>
+                                </li>
+                                <!-- Отзывы -->
+                                <li><a href="#reviews">Отзывы</a></li>
+                                <!-- Контакты -->
+                                <li><a href="#contacts">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div id="mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Меню с картинкой -->
+    <div class="breadcrumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>БЫСТРЫЙ СТАРТ НА МОСКОВСКОЙ БИРЖЕ</h2>
+                    <ul>
+                        <li class="active"><a href="#send_mail">ПОДАТЬ ЗАЯВКУ</a></li>
+                        <li><a href="#course">О КУРСЕ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Интерактивные элементы -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="popup" onclick="myFunction()">
+                    <h2 class="widget-title">Кликните мышкой, чтобы проголосовать за сайт!</h2>
+                    <span class="popuptext" id="myPopup">Спасибо, что поставили высокую оценку сайту</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="animated-element">
+        <a href="#send_mail" class="btn btn-outline-danger btn-lg send">Подать заявку</a>
+    </div>
+
+    <!-- Разделитель ФУНДАМЕНТАЛЬНАЯ БАЗА ДЛЯ СТАРТА НА МОСКОВСКОЙ БИРЖЕ -->
+    <div class="row my-5">
+        <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                    <div class="trader divider">
+                        <p id="trader"></p>ФУНДАМЕНТАЛЬНАЯ БАЗА ДЛЯ СТАРТА НА МОСКОВСКОЙ БИРЖЕ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок ФУНДАМЕНТАЛЬНАЯ БАЗА -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="widget-title">СТАТЬ ТРЕЙДЕРОМ</h2>
+                <p>• Подать заявку</p>
+                <p>• Пройти курс внутридневного трейдинга</p>
+                <p>• Настроить программное обеспечение</p>
+                <p>• Создать свою торговую стратегию</p>
+                <p>• Рассчитать риск-менеджмент</p>
+                <p>• Начать торговлю</p>
+                <p>• Получить обратную связь по результатам торговли</p>
+                <p>• Стать трейдером компании</p>
+
+                <a href="#send_mail" class="btn btn-outline-danger btn-lg send">Подать заявку</a>
+            </div>
+            <div class="col">
+                <h2 class="widget-title">МЫ ПРЕДОСТАВЛЯЕМ</h2>
+                <p>• Авторский курс</p>
+                <p>• Мастер-классы</p>
+                <p>• Разбор сделок</p>
+                <p>• Программное обеспечение</p>
+                <p>• Наставника</p>
+                <p>• Сообщество</p>
+            </div>
+            <div class="col">
+                <h2 class="widget-title">ЧТО ВЫ ПОЛУЧИТЕ</h2>
+                <p>• Торговые стратегии</p>
+                <p>• Пошаговый алгоритм выхода на прибыльную торговлю</p>
+                <p>• Разбор реальных торговых ситуаций и заработка на них</p>
+                <p>• Необходимое программное обеспечение и его настройку</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Разделитель ВИДЕО И АУДИО ФАЙЛЫ -->
+    <div class="row my-5">
+        <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                    <div class="trader divider">
+                        <p id="trader"></p>ВИДЕО И АУДИО ФАЙЛЫ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок Видео и аудио файлы -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="widget-title">Видео 1</h2>
+                <figure>
+                    <figcaption>Просмотрите видео:</figcaption>
+                    <video width="320" height="240" controls>
+                        <source src="assets/video/video_01.mp4" type="video/mp4">
+                        <p>
+                            Ваш браузер не поддерживает HTML5 видео. Вот взамен
+                            <a href="assets/video/video_01.mp4">Ссылка на видео 1</a>
+                        </p>
+                    </video>
+                    <a href="assets/video/video_01.mp4" download id="downloadButton"
+                        class="btn btn-animated btn-secondary m-2">Скачать видео</a>
+                </figure>
+            </div>
+            <div class="col">
+                <h2 class="widget-title">Видео 2</h2>
+                <figure>
+                    <figcaption>Просмотрите видео:</figcaption>
+                    <video width="320" height="240" controls>
+                        <source src="assets/video/video_02.mp4" type="video/mp4">
+                        <p>
+                            Ваш браузер не поддерживает HTML5 видео. Вот взамен
+                            <a href="assets/video/video_02.mp4">Ссылка на видео 2</a>
+                        </p>
+                    </video>
+                    <a href="assets/video/video_02.mp4" download id="downloadButton"
+                        class="btn btn-animated btn-secondary m-2">Скачать видео</a>
+                </figure>
+            </div>
+            <div class="col">
+                <h2 class="widget-title">Аудио</h2>
+                <!-- Аудио -->
+                <figure>
+                    <figcaption>Прослушайте аудио:</figcaption>
+                    <audio controls>
+                        <source src="assets/audio/audio.ogg" type="audio/ogg">
+                        <p>
+                            Ваш браузер не поддерживает HTML5 аудио. Вот взамен
+                            <a href="assets/audio/audio.ogg">Ссылка на аудио</a>
+                        </p>
+                    </audio>
+                    <a href="assets/audio/audio.ogg" download id="downloadButton"
+                        class="btn btn-animated btn-secondary m-2">Скачать аудио</a>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <!-- Разделитель ПЛЮСЫ ТОРГОВЛИ В КОМПАНИИ -->
+    <div class="row my-5">
+        <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                    <div class="teachers divider">
+                        <p></p>ПЛЮСЫ ТОРГОВЛИ В КОМПАНИИ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок ПЛЮСЫ ТОРГОВЛИ В КОМПАНИИ -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/pattern_top_1.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/pattern_top_2.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/pattern_top_3.jpg" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                </div>
+                <h2 class="widget-title my-5">ПЛЮСЫ КОМПАНИИ</h2>
+                <p>• Лучшие условия торговли (низкие комиссии и высокая скорость обработки транзакций)</p>
+                <p>• Лучшие условия работы (трейдеры работают сами на себя. Компания предоставляет условия для
+                    развития)
+                </p>
+                <p>• Передовое программное обеспечение (Компания предоставляет ПО и систему Риск-менеджмента)</p>
+                <p>• График и режим работы (Трейдер работает удаленно в удобное для него время)</p>
+                <p>• Сообщество трейдеров (Крупное сообщество единомышленников-трейдеров, которые помогут достичь
+                    желаемого результата)</p>
+
+                <a href="#send_mail" class="btn btn-outline-danger btn-lg send">Подать заявку</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Разделитель О КОМПАНИИ -->
+    <div class="row my-5">
+        <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                    <div class="company divider">
+                        <p id="company"></p>О КОМПАНИИ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок О КОМПАНИИ -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="widget-title">О НАС</h2>
+                <p>Компания специализируется на торговле акциями российских компаний на площадке ММВБ
+                    и фьючерсами срочного рынка.
+                    Компания предоставляет обучение, наставничество, программное обеспечение для старта на
+                    МОСКОВСКОЙ
+                    БИРЖЕ.
+                    Компания дает возможность трейдерам торговать на капитал компании и разрабатывать торговые
+                    стратегии.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок НАШИ ПРЕПОДАВАТЕЛИ -->
+    <div id="teachers" class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="widget-title">НАШИ ПРЕПОДАВАТЕЛИ</h2>
+                <div class="card-group">
+                    <div class="card" style="max-width: 20rem">
+                        <img src="assets/img/photo_1.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Храмцев Алексей</h5>
+                            <p class="card-text">
+                                Основатель компании.
+                            </p>
+                            <p class="card-text">
+                                Опыт торговли 10+ лет.
+                            </p>
+                            <p class="card-text">
+                                Баланс торгового счета 20 млн.руб.
+                            </p>
+                            <p class="card-text">
+                                Платежная способность 200 млн руб.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Разделитель КУРС ВНУТРИДНЕВНОГО ТРЕЙДИНГА -->
+    <div class="row my-5">
+        <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                    <div class="course divider">
+                        <p id="course"></p>КУРС ВНУТРИДНЕВНОГО ТРЕЙДИНГА
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок КУРС ВНУТРИДНЕВНОГО ТРЕЙДИНГА -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="widget-title">ПРОГРАММА КУРСА</h2>
+                <p>• Вводная информация (приветствие, условия сотрудничества, модель развития трейдера, сообщество,
+                    регистрация)</p>
+                <p>• Настройка программного обеспечения Quik, CScalp, дневник трейдера</p>
+                <p>• Ликвидность и волатильность</p>
+                <p>• Горячие клавиши, звуковые алерты</p>
+                <p>• Рассчитать риск-менеджмент</p>
+                <p>• Виды сделок, виды заявок, виды участников</p>
+                <p>• Торговля на открытии/закрытии рынка. Понятие гэп</p>
+                <p>• Торговая стратегия пробой</p>
+                <p>• Торговая стратегия отбой (ЛП, СЛП)</p>
+                <p>• Торговая стратегия ретест</p>
+                <p>• Индикаторы, свечной анализ</p>
+                <p>• Роботы LUA</p>
+                <p>• Технический анализ</p>
+                <p>• Детали технического анализа, набор позиции, постановка целей в сделке</p>
+                <p>• Фундаментальный анализ, новостные источники</p>
+                <p>• План разгона депозита на ММВБ, помощь компании</p>
+                <p>• Дневник трейдера</p>
+                <p>• Практическое занятие, знакомство с discord и структурой каталогов</p>
+                <p>• Живая торговля (отбор инструментов, вход и выход из позиции)</p>
+
+                <a href="#send_mail" class="btn btn-outline-danger btn-lg send">Подать заявку</a>
+            </div>
+
+            <!-- Категории -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="widget category-widget">
+                        <h4>Материалы</h4>
+                        <ul class="category">
+                            <li><a href="#pattern">Формации<span>(08)</span></a></li>
+                            <li><a href="#books">Книги<span>(05)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Разделитель ТОРГОВЫЕ ФОРМАЦИИ -->
+    <div class="row my-5">
+        <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                    <div class="pattern divider">
+                        <p id="pattern"></p>ТОРГОВЫЕ ФОРМАЦИИ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок ТОРГОВЫЕ ФОРМАЦИИ -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-title">Фигуры продолжения тренда. Вымпел</h5>
+                    <img src="assets/img/pattern-vimpel.png" class="card-vimpel" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Фигура «Вымпел» представляет собой горизонтально расположенный треугольник. Движение
+                            цены
+                            внутри
+                            вымпела — затухающее: диапазон колебаний на графике постепенно сужается. Вместе с этим
+                            снижаются
+                            и объемы торгов.
+                        </p>
+                        <p class="card-text">
+                            При восходящем тренде успешная реализация фигуры предполагает пробой верхней границы
+                            вымпела
+                            и
+                            продолжение up-тренда. Обратная ситуация происходит в случае «медвежьей» тенденции.
+                        </p>
+                        <p class="card-text">
+                            Один из основных критериев формирования вымпела — интенсивное движение по направлению
+                            тенденции
+                            перед ее остановкой. Соответствующая линия тренда на графике называется «древко» или
+                            «флагшток»
+                            (синяя линяя на графике).
+                        </p>
+                        <p class="card-text">
+                            Потенциал движения по тренду после выхода из вымпела равен в теории высоте «древка».
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Фигуры продолжения тренда. Флаг</h5>
+                    <img src="assets/img/pattern-flag.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Линии фигуры должны быть расположены практически параллельно друг другу. Главное условие
+                            флага —
+                            направленность против тренда. При этом диапазон колебаний не должен быть слишком
+                            широким.
+                        </p>
+                        <p class="card-text">
+                            Флаг имеет «древко» — импульсное движение на графике по тренду перед началом
+                            формирования
+                            фигуры.
+                        </p>
+                        <p class="card-text">
+                            Открытие сделки производится после того, как цена пробила границу флага по направлению
+                            тренда.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Фигуры продолжения тренда. Прямоугольник</h5>
+                    <img src="assets/img/pattern-pryamoug.png" class="card-pryamoug" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Прямоугольник — это горизонтальный канал, в пределах которого колеблется цена. Фигура
+                            возникает,
+                            когда котировки не в состоянии продолжить движение по тренду.
+                        </p>
+                        <p class="card-text">
+                            Если движение по тренду останавливается на какое-то время, но при этом цена не в
+                            состоянии
+                            развернуться против тренда, то с большей вероятностью актуальная тенденция будет
+                            продолжена.
+                        </p>
+                        <p class="card-text">
+                            Чем дольше котировки находятся в прямоугольнике, тем выше шансы на его скорое
+                            завершение.
+                            При
+                            этом, как правило, чем более узкий прямоугольник, тем с более сильным импульсом цена
+                            выйдет
+                            за
+                            его пределы.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Разворотные фигуры. Ромб</h5>
+                    <img src="assets/img/pattern-romb.png" class="card-romb" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Графический паттерн «Ромб» предшествует в теории смене тренда.
+                        </p>
+                        <p class="card-text">
+                            Начало ромба возникает в конце импульсного движения по тренду. Цена затормаживается,
+                            после
+                            чего
+                            ее колебания постепенно возрастают, но происходят в пределах расходящегося треугольника
+                            (левая
+                            половина ромба). Затем происходит обратное — волатильность плавно снижается, и мы
+                            наблюдаем
+                            окончательное формирование ромба.
+                        </p>
+                        <p class="card-text">
+                            Сигнал на сделку против тренда возникает при пробое грани ромба вниз (вверх). Как
+                            правило,
+                            чем
+                            более узкий ромб относительно горизонтальной оси, тем импульсивней выход за его пределы.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Двойная и тройная вершина (дно)</h5>
+                    <img src="assets/img/pattern-double.png" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Двойное (тройное) дно формируется на падающем тренде, в то время как двойная (тройная
+                            вершина) —
+                            на растущей тенденции. В остальном эти формации схожи. Обе фигуры выступают
+                            предвестниками
+                            разворота тренда.
+                        </p>
+                        <p class="card-text">
+                            Двойная вершина формируется при восходящей тенденции: цена растет, потом отскакивает
+                            вниз от
+                            определенного уровня (первая вершина) и незначительно падает, формируя локальный минимум
+                            —
+                            сигнальную линию (синяя линия на графике). Затем цена поднимается и упирается в уровень
+                            первого
+                            максимума, образуя вторую вершину. Далее — разворот с успешным пробоем вниз сигнальной
+                            линии,
+                            после которого цена продолжает падать. Таким образом, происходит смена тренда на
+                            нисходящий.
+                        </p>
+                        <p class="card-text">
+                            Сигнал для входа в короткую позицию — пробой вниз сигнальной линии. Для большей
+                            уверенности
+                            можно дождаться тестирования снизу сигнальной линии после ее пробоя. Риск продолжения
+                            up-тренда
+                            в таком случае снижается, однако присутствует вероятность упустить движение при
+                            импульсном
+                            падении.
+                        </p>
+                        <p class="card-text">
+                            Тройное дно — противоположный паттерн, суть которого заключается в том, что цена трижды
+                            касается
+                            уровня дна, дважды отскакивая сверху от сигнальной линии. В третий раз котировки
+                            пробивают
+                            наверх сигнальную линию, формируя растущий тренд.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Голова и плечи</h5>
+                    <img src="assets/img/pattern-head.png" class="card-head" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Фигура очень похожа на тройную вершину. Единственное отличие — вторая вершина находится
+                            выше
+                            первой и третьей, при этом крайние максимумы (плечи) расположены примерно на одном
+                            уровне.
+                            На
+                            практике допускается различие в высоте плеч.
+                        </p>
+                        <p class="card-text">
+                            Сигналом на продажу также выступает пробой линии шеи. Приведем еще один вариант входа в
+                            сделку:
+                            дождаться успешного пробоя линии шеи, а затем открыть позицию после тестирования уровня
+                            сопротивления, расположенного ниже уровня шеи. Точка входа в таком случае надежней, но
+                            часть
+                            потенциальной прибыли упускается.
+                        </p>
+                        <p class="card-text">
+                            Перевернутая голова и плечи — противоположная формация, возникающая на падающем тренде и
+                            формирующая новый «бычий» тренд.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Двусторонние фигуры. Клин</h5>
+                    <img src="assets/img/pattern-klin.png" class="card-klin" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Клин — это направленная вверх или вниз фигура с формой треугольника. В отличие от
+                            вымпела,
+                            линии
+                            клина имеют одну направленность — восходящую или нисходящую. От флага клин отличает
+                            разный
+                            наклон этих линий.
+                        </p>
+                        <p class="card-text">
+                            Как и большинство фигур, формируется после остановки тренда, когда колебания цены
+                            начинают
+                            затухать. Существует две вариации паттерна:
+                        </p>
+                        <p class="card-text">
+                            1) восходящий клин — с растущими минимумами и максимумами;
+                        </p>
+                        <p class="card-text">
+                            2) нисходящий клин — с падающими минимумами и максимумами.
+                        </p>
+                        <p class="card-text">
+                            Может представлять собой как фигуру продолжения тренда, так и разворотную формацию.
+                            Необходимо
+                            помнить один ключевой момент: успешная реализация клина закачивается выходом цены в
+                            сторону,
+                            противоположную направленности клина. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Восходящий и нисходящий треугольник</h5>
+                    <img src="assets/img/pattern-treug.png" class="card-treug" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text">
+                            Восходящий треугольник представляет собой затухающие колебания цены в виде треугольника
+                            с
+                            горизонтальным уровнем сопротивления. Нисходящий треугольник имеет горизонтальный
+                            уровень
+                            поддержки.
+                        </p>
+                        <p class="card-text">
+                            Оба паттерна не зависят от предыдущей динамики цен и тренда. «Бычий» треугольник
+                            реализуется
+                            в
+                            последующем росте, «медвежий» треугольник предвестник падения.
+                            Сигналы на вход в сделку:
+                        </p>
+                        <p class="card-text">
+                            - пробой вверх сопротивления восходящего треугольника — покупка;
+                        </p>
+                        <p class="card-text">
+                            - пробой вниз поддержки нисходящего треугольника — продажа.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Разделитель КНИГИ -->
+    <div class="row my-5">
+        <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                    <div class="books divider">
+                        <p id="books"></p>КНИГИ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок КНИГИ -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="widget-title">СПИСОК ПОЛЕЗНОЙ ЛИТЕРАТУРЫ</h2>
+                <li><a
+                        href="https://www.litres.ru/book/larri-vilyams/dolgosrochnye-sekrety-kratkosrochnoy-torgovli-6113298/">Долгосрочные
+                        секреты краткосрочной торговли. Ларри Вильямс</a></li>
+                <li><a
+                        href="https://www.litres.ru/book/richard-smitten/zhizn-i-smert-velichayshego-birzhevogo-spekulyanta-2451365/">Жизнь
+                        и смерть величайшего биржевого спекулянта. Ричард Смиттен</a></li>
+                <li><a
+                        href="https://www.litres.ru/book/mayk-bellafiore/odin-horoshiy-treyd-skrytaya-informaciya-o-vysokokonkurent-2451695/">Один
+                        хороший трейд. Скрытая информация о высококонкурентном мире частного трейдинга. Майк
+                        Беллафиоре</a>
+                </li>
+                <li><a
+                        href="https://www.litres.ru/book/stiv-nison/yaponskie-svechi-graficheskiy-analiz-finansovyh-rynkov-22639409/">Японские
+                        свечи. Графический анализ финансовых рынков. Стив Нисон</a>
+                </li>
+                <li><a href="https://www.litres.ru/book/stiv-nison/za-granu-yaponskih-svechey-51613447/">За гранью
+                        японских свечей. Стив Нисон</a>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <!-- Разделитель ОТЗЫВЫ -->
+    <div class="row my-5">
+        <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                    <div class="reviews divider">
+                        <p id="reviews"></p>ОТЗЫВЫ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок ОТЗЫВЫ -->
+    <div id="teachers" class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="widget-title">НАША ЦЕЛЬ - ВАШ УСПЕХ НА ФОНДОВОМ РЫНКЕ</h2>
+                <div class="card-group">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Иванов Иван, г.Саратов</h5>
+                            <p class="card-text">
+                                Прходил курс год назад. Курс дает отличную возможность познакомиться с новой
+                                профессией,
+                                получить необходимые для старта знания и навыки. Дает торговые стратегии, приносящие
+                                прибыль.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Петров Петр, г.Самара</h5>
+                            <p class="card-text">
+                                Проходил курс в 2023 году. Курс дал возможность стать трейдером компании XAS Capital
+                                и
+                                обучиться новой профессии.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Разделитель КОНТАКТЫ -->
+    <div class="row my-5">
+        <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                    <div class="contacts divider">
+                        <p id="contacts"></p>КОНТАКТЫ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок НАШИ КОНТАКТЫ -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="widget-title">НАШИ КОНТАКТЫ</h2>
+                <p>Адрес: РФ, г.Москва, ул.Михайлова 30А, корп.4</p>
+                <p>Email: xascapital@gmail.com</p>
+                <p>Тел.:+7 -927-000-00-00</p>
+            </div>
+            <div class="col">
+                <div style="position:relative;overflow:hidden;"><a
+                        href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
+                        href="https://yandex.ru/maps/213/moscow/house/ulitsa_mikhaylova_30ak4/Z04YcQBnSEEOQFtvfXtzcnRkYg==/?ll=37.777149%2C55.723876&utm_medium=mapframe&utm_source=maps&z=17.66"
+                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт,
+                        навигация,
+                        поиск
+                        мест</a><iframe
+                        src="https://yandex.ru/map-widget/v1/?ll=37.777149%2C55.723876&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo0MzA2MjA3MjM4EkLQoNC-0YHRgdC40Y8sINCc0L7RgdC60LLQsCwg0YPQu9C40YbQsCDQnNC40YXQsNC50LvQvtCy0LAsIDMw0JDQujQiCg3MGxdCFT_lXkI%2C&z=17.66"
+                        width="560" height="400" frameborder="1" allowfullscreen="true"
+                        style="position:relative;"></iframe></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Разделитель СВЯЗАТЬСЯ С НАМИ -->
+    <div class="row my-5">
+        <div class="col">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+                <div class="card-body">
+                    <div class="send_mail divider">
+                        <p id="send_mail"></p>СВЯЗАТЬСЯ С НАМИ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Блок НАШИ КОНТАКТЫ -->
+    <div class="container feedback">
+        <div class="text-center">
+            <h2>СВЯЗАТЬСЯ С НАМИ</h2>
+        </div>
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+                <form action="">
+                    <label for="name" class="form-label">Ваше имя:</label>
+                    <input type="name" id="name" placeholder="Имя" class="form-control" />
+
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" placeholder="my@email.com" class="form-control" />
+
+                    <label for="phone" class="form-label">Телефон:</label>
+                    <input type="phone" id="phone" placeholder="Телефон" class="form-control" />
+
+                    <div class="card text-center">
+                        <a href="#send_mail" class="btn btn-outline-danger btn-lg send">Подать заявку</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал страницы -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="about-widget">
+                            <h2 class="widget-title">О КОМПАНИИ</h2>
+                            <!-- Логотип -->
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo_2.png" alt="">
+                                </a>
+                            </div>
+                            <p>Проп-трейдинговая компания.</p>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-map-o"></i>
+                                    <p>г.Москва, ул.Михайлова 30А, корп.4, РОССИЯ</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope-o"></i>
+                                    <p>xascapital@gmail.com</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                                    <p>+7 -927-000-00-00</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="widget-link">
+                            <h2 class="widget-title">ПОЛЕЗНЫЕ ССЫЛКИ</h2>
+                            <ul class="widget-menu">
+                                <li><a href="#course">Курсы</a></li>
+                                <li><a href="#trader">Стать трейдером</a></li>
+                                <li><a href="#pattern">Формации</a></li>
+                                <li><a href="#company">О компании</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="widget-link">
+                            <h2 class="widget-title">ИНФОРМАЦИЯ</h2>
+                            <ul class="widget-menu">
+                                <li><a href="#reviews">Отзывы</a></li>
+                                <li><a href="#">Вакансии</a></li>
+                                <li><a href="#">Партнерам</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer mt-auto py-3 bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="assets/img/footer-logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="copyright-text">
+                            <p>Copyright 2024 XAS Capital. Все права защищены</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Scroll To Top -->
+                <a href="#" class="scrollup"><i class="fa fa-angle-double-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script/script.js"></script>
+
+    <!-- Установки для bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
